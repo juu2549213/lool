@@ -1,0 +1,10 @@
+basic.showIcon(IconNames.Heart)
+basic.pause(1000)
+basic.forever(function () {
+    cuteBot.moveTime(cuteBot.Direction.forward, 20, 5)
+    cuteBot.motors(25, 10)
+    basic.pause(1000)
+    cuteBot.moveTime(cuteBot.Direction.forward, 20, 5)
+    cuteBot.motors(10, 25)
+    basic.pause(1000)
+})
